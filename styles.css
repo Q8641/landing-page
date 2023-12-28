@@ -80,3 +80,37 @@ ul{
     align-items: center;
     color: #e5e7eb;
 }
+
+.random{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card{
+    width: 128px;
+    height: 128px;
+}
+
+
+
+
+.square{
+    display: flex;
+    color: #e5e7eb;
+    border: 2px solid #3882f6;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.card-list{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 64px;      /*  margin-left and margin-right wont apply anyway */
+    margin-bottom: 128px;
+}
