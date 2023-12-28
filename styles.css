@@ -130,9 +130,13 @@ ul{
 
 .quote .text{
     font-size: 32px;
-    width: 40%;
+    width: 40%; /* if this is used, the italic text will go out of
+                * the grey background */
+    width: 544px;
+    flex: initial;
     font-weight: 200;
     color: #1f2937;
+    padding-top: 64px;
 }
 
 .quote .quoter{
