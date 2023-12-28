@@ -1,6 +1,9 @@
 body{
     font-family: "Roboto", sans-serif;
-    margin: 0;;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* flex-shrink: 1; */
 }
 
 ul{
@@ -120,7 +123,6 @@ ul{
     background-color: #e5e7eb;
     height: 256px;
     padding-bottom: 64px;
-    margin-bottom: 64px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -128,14 +130,14 @@ ul{
 
 .quote .text{
     font-size: 32px;
-    max-width: 40%;
+    width: 40%;
     font-weight: 200;
     color: #1f2937;
 }
 
 .quote .quoter{
     margin-left: 512px;
-    font-size: 20;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -143,7 +145,7 @@ ul{
     height: 192px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .sign-up-box{
@@ -174,4 +176,14 @@ ul{
     padding: 4px 24px;
     border: 2px solid #e5e7eb;
     color: #e5e7eb;
+}
+
+.footer{
+    height: 96px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
